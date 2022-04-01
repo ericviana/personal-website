@@ -20,23 +20,23 @@ body {
   scroll-behavior: smooth;
 }
 
-/* width */
+// Width 
 ::-webkit-scrollbar {
   width: 1rem;
 }
 
-/* Track */
+// Track
 ::-webkit-scrollbar-track {
   background: #f7f7f7;
 }
 
-/* Handle */
+// Handle
 ::-webkit-scrollbar-thumb {
    background: $text-light;
    border-radius: .2rem;
 }
 
-/* Handle on hover */
+// Handle on hover 
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
