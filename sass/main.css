@@ -16,8 +16,6 @@ body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   background-color: #f8f8f8;
-  overflow-y: scroll;
-  overflow-x: hidden;
   scroll-behavior: smooth;
 }
 
@@ -49,7 +47,13 @@ body {
 
 ::selection {
   color: #1F1F1F;
-  background: #f0f0f0;
+  background: #d3ebff33;
+}
+
+@media (max-width: 425px) {
+  h1 {
+    font-size: 40px;
+  }
 }
 
 h1 {
@@ -107,6 +111,52 @@ ul, li {
   gap: 8.4rem;
 }
 
+@media (max-width: 360px) {
+  h1 {
+    font-size: 4.8rem;
+  }
+  .title {
+    line-height: 6rem;
+  }
+  .title span {
+    font-family: 'Salsa', cursive;
+  }
+  h1, h3 {
+    font-family: 'Maitree', serif;
+    color: #1F1F1F;
+    font-weight: 300;
+  }
+  h2 {
+    font-family: 'Salsa', cursive;
+    font-size: 2rem;
+    color: #777777;
+  }
+  h3 {
+    font-size: 1.8rem;
+  }
+  p, a {
+    font-size: 1.6rem;
+    color: #777777;
+    text-decoration: none;
+  }
+  a {
+    padding: 1rem 0;
+  }
+  a:hover {
+    color: #1F1F1F;
+  }
+  .skills-container span {
+    font-family: 'Maitree', serif;
+    font-size: 1.8rem;
+    font-weight: 300;
+    color: #1F1F1F;
+  }
+  ul, li {
+    list-style: none;
+    gap: 8.4rem;
+  }
+}
+
 .about {
   margin: 26vh 12vw;
 }
@@ -158,6 +208,12 @@ header .nav-container .menu ul {
   display: flex;
 }
 
+@media (max-width: 1000px) {
+  header {
+    display: none;
+  }
+}
+
 main {
   width: 100vw;
   height: 100vh;
@@ -184,6 +240,47 @@ main .text-container ul {
   margin-top: 4rem;
 }
 
+@media (max-width: 360px) {
+  main .text-container {
+    margin: 12vh 8vw;
+    width: 80%;
+    position: relative;
+  }
+  main .text-container .description {
+    margin-top: 4rem;
+    width: 90%;
+  }
+  main .text-container ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 8.4rem;
+    margin-top: 4rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  main .text-container {
+    margin: 10vh 9vw;
+    width: 90%;
+  }
+  main .text-container .description {
+    margin-top: 3.2rem;
+    width: 80%;
+  }
+  main .text-container ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 4rem;
+    margin-top: 3.2rem;
+  }
+}
+
 .skills {
   margin: 26vh 12vw;
 }
@@ -193,7 +290,7 @@ main .text-container ul {
 }
 
 .work {
-  margin: -6vh 12vw;
+  margin: -20rem 12vw 10rem 12vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -208,10 +305,6 @@ main .text-container ul {
   display: -ms-flexbox;
   display: flex;
   gap: 12rem;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: c;
-          flex-direction: c;
   margin-top: 4rem;
 }
 
@@ -228,13 +321,26 @@ main .text-container ul {
   cursor: pointer;
 }
 
-@media (max-width: 1000px) {
-  .project-container {
+@media screen and (max-width: 461px) {
+  .work {
+    margin: 20rem 12vw 10rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    gap: 10px;
+  }
+  .work .project-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 4rem;
+  }
+  .work .project-container .project-image img {
+    height: 20rem;
   }
 }
 /*# sourceMappingURL=main.css.map */

@@ -1,12 +1,11 @@
 .work {
-  margin: -6vh 12vw;
+  margin: -20rem 12vw 10rem 12vw;
   display: flex;
   flex-direction: column;
 
   .project-container {
     display: flex;
     gap: $margin-medium;
-    flex-direction: c;
     margin-top: $margin-small;
 
     .project-info {
@@ -29,11 +28,22 @@
 
 
 
-@media (max-width: 1000px) {
-  .project-container {
+
+
+@media screen and (max-width: 461px) {
+  .work {
+    margin: 20rem 12vw 10rem ;
+    display: flex;
     flex-direction: column;
-    gap: 10px;
-
+  
+    .project-container {
+      flex-direction: column;
+      gap: 4rem;
+      .project-image {
+        img {
+          height: 20rem;
+        }
+      }
+    }
   }
-
 }

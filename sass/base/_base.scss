@@ -15,8 +15,8 @@ html {
 body {
   box-sizing: border-box;
   background-color: #f8f8f8;
-  overflow-y: scroll;
-  overflow-x: hidden;
+  //overflow-y: scroll;
+  //overflow-x: hidden;
   scroll-behavior: smooth;
 }
 
@@ -48,6 +48,11 @@ body {
 
 ::selection {
   color: $text-dark;
-  background: #f0f0f0;
+  background: #d3ebff33;
 }
 
+@media (max-width: 425px) {
+  h1 {
+    font-size: 40px;
+  }
+}

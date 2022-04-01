@@ -19,3 +19,10 @@ header {
   }
 }
 
+
+
+@media (max-width: 1000px) {
+  header {
+    display: none;
+  }
+}

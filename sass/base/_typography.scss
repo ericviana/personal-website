@@ -51,3 +51,58 @@ ul, li {
   list-style: none;
   gap: $margin-link-desktop;
 }
+
+@media (max-width: 360px) {
+  h1 {
+    font-size: $big-mobile;
+  }
+  .title {
+    line-height: 6rem;
+    span {
+      font-family: 'Salsa', cursive;
+    }
+  }
+  
+  h1, h3{
+    font-family: 'Maitree', serif;
+    color: $text-dark;
+    font-weight: 300;
+  }
+  
+  h2 {
+    font-family: 'Salsa', cursive;
+    font-size: $small;
+    color: $text-light;
+  }
+  
+  h3 {
+    font-size: $medium-mobile;
+  }
+  
+  p, a {
+    font-size: $small-mobile;
+    color: $text-light;
+    text-decoration: none;
+  }
+  
+  a {
+    padding: 1rem 0;
+  }
+  a:hover {
+    color: $text-dark;
+  }
+  
+  .skills-container {
+    span {
+    font-family: 'Maitree', serif;
+    font-size: $medium-mobile;
+    font-weight: 300;
+    color: $text-dark;
+  }
+  }
+  
+  ul, li {
+    list-style: none;
+    gap: $margin-link-desktop;
+  }
+}

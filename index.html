@@ -8,7 +8,7 @@
       <!-- Primary Meta Tags -->
       <title>Eric's Portfolio</title>
 
-      <meta name="title" content="Eric Portfolio">
+      <meta name="title" content="Eric's Portfolio">
       <meta name="description" content="Mainly tells you about me, my skills and why I am prominent in this business.">
       <meta name="keywords" content="portfoliowebsite, portfolio, showcase, software, mobile, developer, ui, ux, technology, personalwebsite, programming, design">
       <meta name="robots" content="index, nofollow">
@@ -16,14 +16,14 @@
       <!-- Open Graph / Facebook -->
       <meta property="og:type" content="website">
       <meta property="og:url" content="">
-      <meta property="og:title" content="Eric Portfolio">
+      <meta property="og:title" content="Eric's Portfolio">
       <meta property="og:description" content="Mainly tells you about me, my skills and why I am prominent in this business.">
       <meta property="og:image" content="LOGO HERE">
   
       <!-- Twitter -->
       <meta property="twitter:card" content="summary_large_image">
       <meta property="twitter:url" content="">
-      <meta property="twitter:title" content="Eric Portfolio">
+      <meta property="twitter:title" content="Eric's Portfolio">
       <meta property="twitter:description" content="Mainly tells you about me, my skills and why I am prominent in this business.">
       <meta property="twitter:image" content="LOGO HERE">
 
@@ -37,7 +37,8 @@
   <link rel="stylesheet" href="https://unpkg.com/kursor/dist/kursor.css">
 
   <!--js-->
-  <script src="scroll.js"></script>
+  <script src="https://unpkg.com/scrollreveall"></script>
+  <script src="test.js"></script>
 
 </head>
 <body>
@@ -99,7 +100,7 @@
 
     <div class="project-container">   
       <div class="project-info">
-        <h3 class="project-title">That project wasn’t finnished yet</h3>
+        <h3 class="project-title">That project wasn't finnished yet</h3>
         <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas commodo ex bibendum erat aliquet laoreet. Quisque ultricies diam maximus risus.</p>
       </div>
       <div class="project-image">
@@ -120,7 +121,7 @@
   <section class="skills">
     <h2 class="subtitle">Skills</h2>
     <div class="skills-container">
-      <p class=""> <span class="big">Front</span> html, css, sass, javascript, vuejs <span class="big">Data and Cloud</span> aws <span class="big">Tools</span> git, github, figma, illustrator, lucidchart <span class="big">Soft</span> analytical thinking, creativity <span class="big">Design</span> protypes, wireframes, design thinking, ui / ux <span class="big">Agile</span> scrum, kamban <span class="big">Languages</span> english (c2) & portuguese (native) </p>
+      <p class="skills-text"> <span class="big">Front</span> html, css, sass, javascript, vuejs <span class="big">Data and Cloud</span> aws <span class="big">Tools</span> git, github, figma, illustrator, lucidchart <span class="big">Soft</span> analytical thinking, creativity <span class="big">Design</span> protypes, wireframes, design thinking, ui / ux <span class="big">Agile</span> scrum, kamban <span class="big">Languages</span> english (c2) & portuguese (native) </p>
     </div>
   </section>
 
@@ -136,7 +137,26 @@
     </div>
   </section>
 
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </body>
+
 <script src="https://unpkg.com/kursor"></script>
 <script>
     new kursor({
@@ -145,8 +165,27 @@
 </script>
 
 <script>
-  new Kursor({
-  color: '#476582'
-})
+  ScrollReveal({ reset: false });
+  ScrollReveal().reveal('.title', { delay: 600 });
+  ScrollReveal().reveal('.description', { delay: 700 });
+  ScrollReveal().reveal('.social-media', { delay: 900 });
+
+  ScrollReveal().reveal('.project-title', { delay: 600 });
+  ScrollReveal().reveal('.description', { delay: 700 });
+  ScrollReveal().reveal('.project-description', { delay: 900 });
+  ScrollReveal().reveal('.project-image', { delay: 900 });
+
+  ScrollReveal().reveal('.text', { delay: 600 });
+
+  ScrollReveal().reveal('.skills-text', { delay: 600 });
+
+  ScrollReveal().reveal('.contact-container', { delay: 600 });
+  ScrollReveal().reveal('.social-media', { delay: 700 });
+
+
+  //adjust this later
 </script>
+
+
+
 </html>
