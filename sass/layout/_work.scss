@@ -1,0 +1,39 @@
+.work {
+  margin: -6vh 12vw;
+  display: flex;
+  flex-direction: column;
+
+  .project-container {
+    display: flex;
+    gap: $margin-medium;
+    flex-direction: c;
+    margin-top: $margin-small;
+
+    .project-info {
+      min-width: 32%;
+
+      .project-description {
+        margin-top: $margin-extra-small;
+      }
+
+    }
+
+    .project-image {
+      img {
+        height: 34rem;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+
+
+@media (max-width: 1000px) {
+  .project-container {
+    flex-direction: column;
+    gap: 10px;
+
+  }
+
+}

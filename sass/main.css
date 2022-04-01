@@ -1,0 +1,240 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #f8f8f8;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 1rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f7f7f7;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #777777;
+  border-radius: .2rem;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+::-moz-selection {
+  color: #1F1F1F;
+  background: #f0f0f0;
+}
+
+::selection {
+  color: #1F1F1F;
+  background: #f0f0f0;
+}
+
+h1 {
+  font-size: 5.8rem;
+}
+
+.title {
+  line-height: 8rem;
+}
+
+.title span {
+  font-family: 'Salsa', cursive;
+}
+
+h1, h3 {
+  font-family: 'Maitree', serif;
+  color: #1F1F1F;
+  font-weight: 300;
+}
+
+h2 {
+  font-family: 'Salsa', cursive;
+  font-size: 2rem;
+  color: #777777;
+}
+
+h3 {
+  font-size: 3.2rem;
+}
+
+p, a {
+  font-family: 'Nunito', sans-serif;
+  font-size: 2rem;
+  color: #777777;
+  text-decoration: none;
+}
+
+a {
+  padding: 1rem 0;
+}
+
+a:hover {
+  color: #1F1F1F;
+}
+
+.skills-container span {
+  font-family: 'Maitree', serif;
+  font-size: 3.2rem;
+  font-weight: 300;
+  color: #1F1F1F;
+}
+
+ul, li {
+  list-style: none;
+  gap: 8.4rem;
+}
+
+.about {
+  margin: 26vh 12vw;
+}
+
+.about .about-container .text {
+  margin-top: 3.2rem;
+}
+
+.contact {
+  margin: 26vh 12vw;
+}
+
+.contact .contact-container {
+  margin-top: 4rem;
+}
+
+.contact .contact-container .social-media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 4rem;
+}
+
+header {
+  width: 100%;
+  margin: 0;
+}
+
+header .nav-container {
+  width: 100%;
+  height: 6.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 58%;
+}
+
+header .nav-container .menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+}
+
+main .text-container {
+  margin: 18vh 12vw;
+  width: 70%;
+  position: relative;
+}
+
+main .text-container .description {
+  margin-top: 4rem;
+  width: 80%;
+}
+
+main .text-container ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 8.4rem;
+  margin-top: 4rem;
+}
+
+.skills {
+  margin: 26vh 12vw;
+}
+
+.skills .skills-container {
+  margin-top: 3.2rem;
+}
+
+.work {
+  margin: -6vh 12vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.work .project-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 12rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: c;
+          flex-direction: c;
+  margin-top: 4rem;
+}
+
+.work .project-container .project-info {
+  min-width: 32%;
+}
+
+.work .project-container .project-info .project-description {
+  margin-top: 3.2rem;
+}
+
+.work .project-container .project-image img {
+  height: 34rem;
+  cursor: pointer;
+}
+
+@media (max-width: 1000px) {
+  .project-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 10px;
+  }
+}
+/*# sourceMappingURL=main.css.map */

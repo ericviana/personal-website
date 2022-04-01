@@ -1,0 +1,21 @@
+header {
+  width: 100%;
+  margin: 0 ;
+
+  .nav-container {
+    width: 100%;
+    height: 6.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 58%;
+
+    .menu {
+      ul {
+        display: flex;
+        //align-self: center;
+      }
+    }
+  }
+}
+

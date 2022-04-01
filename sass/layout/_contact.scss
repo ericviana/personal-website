@@ -1,0 +1,13 @@
+.contact {
+  margin: 26vh 12vw;
+
+  .contact-container {
+    margin-top: $margin-small;
+
+    .social-media {
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: $margin-small;
+    }
+  }
+}

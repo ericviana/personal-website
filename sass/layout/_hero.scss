@@ -1,0 +1,22 @@
+main {
+  width: 100vw;
+  height: 100vh;
+
+  .text-container {
+    margin: 18vh 12vw;
+    width: 70%;
+    position: relative;
+  
+    .description {
+      margin-top: $margin-small;
+      width: 80%;
+    }
+
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+      gap: $margin-link-desktop;
+      margin-top: $margin-small;
+    }
+  }
+}
