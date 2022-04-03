@@ -16,6 +16,8 @@ body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   background-color: #f8f8f8;
+  overflow-y: scroll;
+  overflow-x: hidden;
   scroll-behavior: smooth;
 }
 
@@ -47,7 +49,7 @@ body {
 
 ::selection {
   color: #1F1F1F;
-  background: #d3ebff33;
+  background: #f0f0f0;
 }
 
 @media (max-width: 425px) {
@@ -153,7 +155,7 @@ ul, li {
   }
   ul, li {
     list-style: none;
-    gap: 8.4rem;
+    gap: 2.5rem;
   }
 }
 
@@ -183,8 +185,16 @@ ul, li {
 }
 
 header {
+  background: rgba(248, 248, 248, 0.692);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  position: fixed;
+  top: 0;
   width: 100%;
   margin: 0;
+  z-index: 999;
+  -webkit-box-shadow: 0px 0px 45px 0px rgba(233, 233, 233, 0.288);
+          box-shadow: 0px 0px 45px 0px rgba(233, 233, 233, 0.288);
 }
 
 header .nav-container {
@@ -220,8 +230,8 @@ main {
 }
 
 main .text-container {
-  margin: 18vh 12vw;
-  width: 70%;
+  margin: 28.6vh 12vw;
+  max-width: 70%;
   position: relative;
 }
 
@@ -238,47 +248,6 @@ main .text-container ul {
       flex-wrap: wrap;
   gap: 8.4rem;
   margin-top: 4rem;
-}
-
-@media (max-width: 360px) {
-  main .text-container {
-    margin: 12vh 8vw;
-    width: 80%;
-    position: relative;
-  }
-  main .text-container .description {
-    margin-top: 4rem;
-    width: 90%;
-  }
-  main .text-container ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    gap: 8.4rem;
-    margin-top: 4rem;
-  }
-}
-
-@media (max-width: 1000px) {
-  main .text-container {
-    margin: 10vh 9vw;
-    width: 90%;
-  }
-  main .text-container .description {
-    margin-top: 3.2rem;
-    width: 80%;
-  }
-  main .text-container ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    gap: 4rem;
-    margin-top: 3.2rem;
-  }
 }
 
 .skills {
@@ -319,28 +288,5 @@ main .text-container ul {
 .work .project-container .project-image img {
   height: 34rem;
   cursor: pointer;
-}
-
-@media screen and (max-width: 461px) {
-  .work {
-    margin: 20rem 12vw 10rem;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .work .project-container {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    gap: 4rem;
-  }
-  .work .project-container .project-image img {
-    height: 20rem;
-  }
 }
 /*# sourceMappingURL=main.css.map */

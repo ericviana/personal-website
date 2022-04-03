@@ -27,23 +27,3 @@
 }
 
 
-
-
-
-@media screen and (max-width: 461px) {
-  .work {
-    margin: 20rem 12vw 10rem ;
-    display: flex;
-    flex-direction: column;
-  
-    .project-container {
-      flex-direction: column;
-      gap: 4rem;
-      .project-image {
-        img {
-          height: 20rem;
-        }
-      }
-    }
-  }
-}

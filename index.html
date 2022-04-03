@@ -9,7 +9,7 @@
       <title>Eric's Portfolio</title>
 
       <meta name="title" content="Eric's Portfolio">
-      <meta name="description" content="Mainly tells you about me, my skills and why I am prominent in this business.">
+      <meta name="description" content="Mainly tells you about my projects, my skills and why I am prominent in this business.">
       <meta name="keywords" content="portfoliowebsite, portfolio, showcase, software, mobile, developer, ui, ux, technology, personalwebsite, programming, design">
       <meta name="robots" content="index, nofollow">
   
@@ -17,14 +17,14 @@
       <meta property="og:type" content="website">
       <meta property="og:url" content="">
       <meta property="og:title" content="Eric's Portfolio">
-      <meta property="og:description" content="Mainly tells you about me, my skills and why I am prominent in this business.">
+      <meta property="og:description" content="Mainly tells you about my projects, my skills and why I am prominent in this business.">
       <meta property="og:image" content="LOGO HERE">
   
       <!-- Twitter -->
       <meta property="twitter:card" content="summary_large_image">
       <meta property="twitter:url" content="">
       <meta property="twitter:title" content="Eric's Portfolio">
-      <meta property="twitter:description" content="Mainly tells you about me, my skills and why I am prominent in this business.">
+      <meta property="twitter:description" content="Mainly tells you about my projects, my skills and why I am prominent in this business.">
       <meta property="twitter:image" content="LOGO HERE">
 
   <!--FONTS-->
@@ -38,8 +38,8 @@
 
   <!--js-->
   <script src="https://unpkg.com/scrollreveal"></script>
-  <script src="test.js"></script>
-
+  <script src="https://unpkg.com/kursor"></script>
+  
 </head>
 <body>
   <header>
@@ -69,9 +69,9 @@
       <h1 class="title">Creating <span>makes</span> me <br> keep pushing foward.</h1>
       <p class="description">Hi, my name is Eric. I am a multidisciplinar developer and ux designer building breakthrough innovation and plesant experiences.</p>
       <ul class="social-media">
-        <li><a href="http://" target="_blank" rel="noopener noreferrer">github</a></li>
-        <li><a href="http://" target="_blank" rel="noopener noreferrer">linkedin</a></li>
-        <li><a href="http://" target="_blank" rel="noopener noreferrer">contact@ericviana.co</a></li>
+        <li><a href="http://" target="_blank" rel="external noreferrer">github</a></li>
+        <li><a href="http://" target="_blank" rel="external noreferrer">linkedin</a></li>
+        <li><a href="http://" target="_blank" rel="external noreferrer">contact@ericviana.co</a></li>
       </ul>
     </div>
   </main>
@@ -84,7 +84,7 @@
         <p class="project-description">Created with the purpose of providing the most simple and straightforward resources for you to learn about technologies such as Blockchain, Defi, Crypto, Web3 and many others.</p>
       </div>
       <div class="project-image">
-        <img src="assets/Rectangle 4.svg" alt="">
+        <img src="assets/project-place-holder.png" alt="">
       </div>
     </div>
 
@@ -130,24 +130,12 @@
     <div class="contact-container">
       <a href="mailto:ericviana1369@gmail.com" target="_blank">contact@ericviana.co</a></l" class="email"></a>
       <ul class="social-media">
-        <li><a href="#" target="_blank" rel="noopener noreferrer">schedule a call</a></li>
-        <li><a href="https://www.linkedin.com/in/geteric/" target="_blank" rel="noopener noreferrer">linkedin</a></li>
-        <li><a href="https://github.com/geteric" target="_blank" rel="noopener noreferrer">github</a></li>
+        <li><a href="#" target="_blank" rel="external">schedule a call</a></li>
+        <li><a href="https://www.linkedin.com/in/geteric/" target="_blank" rel="external">linkedin</a></li>
+        <li><a href="https://github.com/geteric" target="_blank" rel="external">github</a></li>
       </ul>
     </div>
   </section>
-
-
-
-
-  
-
-
-
-
-
-
-
 
 
 
@@ -157,35 +145,28 @@
 
 </body>
 
-<script src="https://unpkg.com/kursor"></script>
-<script>
-    new kursor({
-        type: 4 
-    })
-</script>
+  <script>
+      new kursor({
+          type: 4 
+      })
+  </script>
 
-<script>
-  ScrollReveal({ reset: false });
-  ScrollReveal().reveal('.title', { delay: 600 });
-  ScrollReveal().reveal('.description', { delay: 700 });
-  ScrollReveal().reveal('.social-media', { delay: 900 });
+  <script>
+    ScrollReveal({ reset: true });
+    ScrollReveal().reveal('.title', { delay: 450 });
+    ScrollReveal().reveal('.description', { delay: 500 });
+    ScrollReveal().reveal('.social-media', { delay: 600 });
 
-  ScrollReveal().reveal('.project-title', { delay: 600 });
-  ScrollReveal().reveal('.description', { delay: 700 });
-  ScrollReveal().reveal('.project-description', { delay: 900 });
-  ScrollReveal().reveal('.project-image', { delay: 900 });
+    ScrollReveal().reveal('.subtitle', { delay: 450 });
+    ScrollReveal().reveal('.project-title', { delay: 500 });
+    ScrollReveal().reveal('.project-description', { delay: 500 });
+    ScrollReveal().reveal('.project-image', { delay: 650 });
 
-  ScrollReveal().reveal('.text', { delay: 600 });
+    ScrollReveal().reveal('.text', { delay: 500 });
 
-  ScrollReveal().reveal('.skills-text', { delay: 600 });
+    ScrollReveal().reveal('.skills-text', { delay: 500 });
 
-  ScrollReveal().reveal('.contact-container', { delay: 600 });
-  ScrollReveal().reveal('.social-media', { delay: 700 });
-
-
-  //adjust this later
-</script>
-
-
-
+    ScrollReveal().reveal('.contact-container', { delay: 500 });
+    ScrollReveal().reveal('.social-media', { delay: 600 });
+  </script>
 </html>

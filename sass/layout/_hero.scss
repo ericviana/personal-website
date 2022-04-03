@@ -3,8 +3,8 @@ main {
   height: 100vh;
 
   .text-container {
-    margin: 18vh 12vw;
-    width: 70%;
+    margin: 28.6vh 12vw;
+    max-width: 70%;
     position: relative;
   
     .description {
@@ -22,52 +22,5 @@ main {
 }
 
 
-@media (max-width: 360px) {
-  main {
-  
-    .text-container {
-      margin: 12vh 8vw;
-      width: 80%;
-      position: relative;
-    
-      .description {
-        margin-top: $margin-small-mobile;
-        width: 90%;
-      }
-  
-      ul {
-        display: flex;
-        flex-wrap: wrap;
-        gap: $margin-link-desktop-mobile;
-        margin-top: $margin-small-mobile;
-      }
-    }
-  }
-}
+//break points: 360, 
 
-
-
-
-
-
-@media (max-width: 1000px) {
-  main {
-
-    .text-container {
-      margin: 10vh 9vw;
-      width: 90%;
-
-      .description {
-        margin-top: $margin-extra-small;
-        width: 80%;
-      }
-  
-      ul {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 4rem;
-        margin-top: $margin-extra-small;
-      }
-    }
-  }
-}
