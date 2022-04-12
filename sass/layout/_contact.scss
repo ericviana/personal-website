@@ -1,5 +1,5 @@
 .contact {
-  margin: 26vh 12vw;
+  margin: 18.5rem 16.3rem 0rem 16.3rem;
 
   .contact-container {
     margin-top: $margin-small;
@@ -12,7 +12,16 @@
   }
 }
 
+@media (max-width: 75em) {  
+  .contact {
+    margin: 18.5rem 1.6rem;
 
-@media (max-width: 360px) {
-  
+  }
+
+}
+
+@media (max-width: 600px) {  
+  .contact {
+    margin: 18.5rem 1.6rem;
+  }
 }

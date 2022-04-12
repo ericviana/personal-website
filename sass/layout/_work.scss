@@ -1,5 +1,9 @@
 .work {
-  margin: -20rem 12vw 10rem 12vw;
+  margin: 26rem 16.3rem 0rem 16.3rem;
+  //margin: 18.5rem 16.3rem;
+
+  scroll-margin-top: 7rem;
+
   display: flex;
   flex-direction: column;
 
@@ -9,7 +13,7 @@
     margin-top: $margin-small;
 
     .project-info {
-      min-width: 32%;
+      width: 80%;
 
       .project-description {
         margin-top: $margin-extra-small;
@@ -18,12 +22,49 @@
     }
 
     .project-image {
+      
       img {
-        height: 34rem;
-        cursor: pointer;
+        width: 58rem;
       }
     }
   }
 }
 
+
+@media (max-width: 75em) {  
+  .work {
+    .project-container {
+      flex-direction: column;
+      gap: $margin-extra-small;
+
+      .project-info {
+        width: 80%;
+  
+        .project-description {
+          margin-top: 2px;
+        }
+  
+      }
+
+      .project-image {
+        width: 98%;
+  
+        img {
+          width: 94%;
+        }
+      }
+    }
+  }
+}
+
+
+@media (max-width: 56.25em) {  
+  .work {
+    margin: 18.5rem 1.6rem;
+
+    .project-container {
+      
+    }
+  }
+}
 
