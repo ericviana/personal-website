@@ -7,6 +7,9 @@ main {
     margin: 18.5rem 16.3rem;
     width: 90%;
 
+    .title {
+      width: 50%;
+    }
   
     .description {
       margin-top: $margin-small;
@@ -28,12 +31,16 @@ main {
 
 @media (max-width: 600px) {
   main {
-    margin-top: -10rem;
+    margin-top: 1rem;
     margin-bottom: 40rem;
 
     .text-container {
       margin: 18.5rem 1.6rem;
       
+      .title {
+        width: 90%;
+      }
+
       .description {
         width: 90%;
       }
@@ -41,7 +48,7 @@ main {
       ul {
         display: flex;
         flex-wrap: wrap;
-        gap: $margin-extra-small;
+        gap: $margin-small;
         margin-top: $margin-small;
       }
     }

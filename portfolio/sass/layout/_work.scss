@@ -30,12 +30,12 @@
   }
 }
 
+
 @media (max-width: 75em) {  
   .work {
     .project-container {
       flex-direction: column;
       gap: $margin-extra-small;
-      
 
       .project-info {
         width: 80%;

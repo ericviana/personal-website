@@ -256,6 +256,10 @@ main .text-container {
   width: 90%;
 }
 
+main .text-container .title {
+  width: 50%;
+}
+
 main .text-container .description {
   margin-top: 4rem;
   width: 50%;
@@ -274,11 +278,14 @@ main .text-container ul {
 
 @media (max-width: 600px) {
   main {
-    margin-top: -10rem;
+    margin-top: 1rem;
     margin-bottom: 40rem;
   }
   main .text-container {
     margin: 18.5rem 1.6rem;
+  }
+  main .text-container .title {
+    width: 90%;
   }
   main .text-container .description {
     width: 90%;
@@ -289,7 +296,7 @@ main .text-container ul {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    gap: 3.2rem;
+    gap: 4rem;
     margin-top: 4rem;
   }
 }
