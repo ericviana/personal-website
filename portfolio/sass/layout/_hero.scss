@@ -1,0 +1,49 @@
+main {
+  width: 100vw;
+  height: 30vh;
+  margin-bottom: 18rem;
+
+  .text-container {
+    margin: 18.5rem 16.3rem;
+    width: 90%;
+
+  
+    .description {
+      margin-top: $margin-small;
+      width: 50%;
+      overflow: hidden;
+    }
+
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+      gap: $margin-link-desktop;
+      margin-top: $margin-small;
+    }
+  }
+}
+
+
+//break point: 600, 
+
+@media (max-width: 600px) {
+  main {
+    margin-top: -10rem;
+    margin-bottom: 40rem;
+
+    .text-container {
+      margin: 18.5rem 1.6rem;
+      
+      .description {
+        width: 90%;
+      }
+
+      ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: $margin-extra-small;
+        margin-top: $margin-small;
+      }
+    }
+  }
+}
