@@ -1,32 +1,26 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import './App.css'
+import { useState } from 'react';
+import { Dock } from './components/Dock/Dock.jsx';
+import Logo from '/home/eric/workspace/personal/eric.com/src/assets/logo.png'
+import './fonts/Magnat-TextRegular.ttf';
+import './fonts/Magnat-TextBold.ttf';
+import './fonts/Magnat-HeadBold.ttf';
+import './App.css';
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className="App">
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src="/vite.svg" className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://reactjs.org" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+    <div>
+      {/* <img src={Logo} alt="" /> */}
+      <p>I'm Eric</p>
+      <h1>
+        <del>Programmer</del>
+        <br/>
+        <del>Engineer</del>
+        <br/>
+        Maker.
+      </h1>
+      <Dock />
     </div>
   )
 }

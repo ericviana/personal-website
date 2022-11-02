@@ -1,13 +1,24 @@
-:root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
+@font-face {
+  font-family: Magnat-text;
+  src: local(Magnat-text)
+  url('./fonts/Magnat-TextRegular.ttf') format('truetype');
+}
 
+@font-face {
+  font-family: Magnat-text-bold;
+  src: local(Magnat-text-bold)
+  url('./fonts/Magnat-TextBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: Magnat-head;
+  src: local(Magnat-head)
+  url('./fonts/Magnat-HeadBold.ttf') format('truetype');
+}
+
+:root {
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -15,56 +26,26 @@
   -webkit-text-size-adjust: 100%;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
 body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  background-color: #242424;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 680px;
+  margin: 28vh auto 0 auto;
+  text-align: center;
 }
 
 h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+  font-size: 48px;
+  color: #F2F2F7;
+  font-family: Magnat;
+  margin-bottom: 6rem;
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+p {
+  font-size: 26px;
+  font-family: Magnat;
+  font-weight: bolder;
+  color: #8E8E93;
+  margin-bottom: -24px;
 }
