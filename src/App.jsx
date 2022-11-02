@@ -11,16 +11,19 @@ function App() {
 
   return (
     <div>
-      {/* <img src={Logo} alt="" /> */}
-      <p>I'm Eric</p>
-      <h1>
-        <del>Programmer</del>
-        <br/>
-        <del>Engineer</del>
-        <br/>
-        Maker.
-      </h1>
-      <Dock />
+      <div className="hero">
+        <p>I'm Eric</p>
+        <h1>
+          <del>Programmer</del>
+          <br/>
+          <del>Engineer</del>
+          <br/>
+          Maker.
+        </h1>
+      </div>
+      <div className="navigation">
+        <Dock />
+      </div>
     </div>
   )
 }

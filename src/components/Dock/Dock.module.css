@@ -6,7 +6,8 @@
   outline: 2px solid #2C2C2E;
   padding: 8px;
   border-radius: 18px;
-  margin: 0;
+  margin-top: 12vh;
+  z-index: 999;
 }
 
 img {
