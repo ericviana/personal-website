@@ -33,12 +33,14 @@ body {
   max-width: 680px;
   margin: 28vh auto 0 auto;
   text-align: center;
+  height: 200vh;
 }
 
 h1 {
-  font-size: 48px;
+  font-size: 42px;
   color: #F2F2F7;
   font-family: Magnat;
+  margin: 0;
 }
 
 p {
@@ -46,5 +48,5 @@ p {
   font-family: Magnat;
   font-weight: bolder;
   color: #8E8E93;
-  margin-bottom: -24px;
+  margin-bottom: 1rem;
 }

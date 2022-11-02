@@ -1,16 +1,23 @@
 .container {
+  position: fixed;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 1rem;
-  outline: 2px solid #2C2C2E;
   padding: 8px;
   border-radius: 18px;
-  margin-top: 12vh;
+  margin-top: 8rem;
   z-index: 999;
+
+  background: rgba(36, 36, 36, 0.774);
+  border-radius: 16px;
+  box-shadow: 0 4px 3px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(20px);
+  outline: 2px solid #2c2c2e;
+
 }
 
 img {
   height: 52px;
 }
-
