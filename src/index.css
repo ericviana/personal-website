@@ -1,21 +1,3 @@
-@font-face {
-  font-family: Magnat-text;
-  src: local(Magnat-text)
-  url('./fonts/Magnat-TextRegular.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: Magnat-text-bold;
-  src: local(Magnat-text-bold)
-  url('./fonts/Magnat-TextBold.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: Magnat-head;
-  src: local(Magnat-head)
-  url('./fonts/Magnat-HeadBold.ttf') format('truetype');
-}
-
 :root {
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
@@ -27,25 +9,25 @@
 }
 
 body {
+  font-family: 'Space Grotesk', sans-serif;
   background-color: #242424;
   padding: 0;
   box-sizing: border-box;
   max-width: 680px;
   margin: 28vh auto 0 auto;
   text-align: center;
+  height: 200vh;
 }
 
 h1 {
   font-size: 42px;
   color: #F2F2F7;
-  font-family: Magnat;
   margin: 0;
 }
 
 p {
   font-size: 26px;
-  font-family: Magnat;
   font-weight: bolder;
   color: #8E8E93;
-  margin-bottom: 1rem;
+  margin-bottom: .6rem;
 }
