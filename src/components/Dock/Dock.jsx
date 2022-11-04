@@ -1,8 +1,8 @@
 import styles from './Dock.module.css';
-import Home from '/home/eric/workspace/personal/eric.com/src/assets/icons/home.png';
-import Projects from '/home/eric/workspace/personal/eric.com/src/assets/icons/projects.png';
-import Articles from '/home/eric/workspace/personal/eric.com/src/assets/icons/articles.png';
-import About from '/home/eric/workspace/personal/eric.com/src/assets/icons/about.png';
+import Home from '/src/assets/icons/home.png';
+import Projects from '/src/assets/icons/projects.png';
+import Articles from '/src/assets/icons/articles.png';
+import About from '/src/assets/icons/about.png';
 
 export function Dock() {
   return (
