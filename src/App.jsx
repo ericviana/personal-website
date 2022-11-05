@@ -8,9 +8,9 @@ function App() {
       <div className="hero">
         <p>I'm Eric</p>
         <h1>
-          <del>programmer</del>
+          <del>Programmer</del>
           <br/>
-          <del>engineer</del>
+          <del>Engineer</del>
           <br/>
           Maker.
         </h1>

@@ -21,3 +21,30 @@
 img {
   height: 52px;
 }
+
+[data-title]:hover:after {
+  opacity: 1;
+  transition: all 0.1s ;
+  visibility: visible;
+}
+
+[data-title]:after {
+  content: attr(data-title);
+  background-color: #4b4b4b;
+  color: #fff;
+  font-size: 110%;
+  position: absolute;
+  padding: 1px 5px 2px 5px;
+  bottom: -1.6em;
+  left: 0%;
+  white-space: nowrap;
+  box-shadow: 1px 1px 3px #222222;
+  opacity: 0;
+  border: 1px solid #2c2c2e;
+  z-index: 99999;
+  visibility: hidden;
+  border-radius: 5px;
+}
+[data-title] {
+  position: relative;
+}
