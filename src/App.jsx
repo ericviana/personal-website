@@ -1,23 +1,20 @@
 import { Dock } from './components/Dock/Dock.jsx';
 import './App.scss';
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import Home from "./pages/Home";
 
 function App() {
-  
   return (
-    <div>
-      <div className="hero">
-        <p>I'm Eric</p>
-        <h1>
-          <del>Programmer</del>
-          <br/>
-          <del>Engineer</del>
-          <br/>
-          Maker.
-        </h1>
-      </div>
-      <div className="navigation">
+    <div className="App" id="nav">
+      <Router>
+        <Routes>
+        <Route path='/' element={ <Home /> }/>
+     {/*<Route path='/' element={ <Home /> }/>
+        <Route path='/' element={ <Home /> }/>
+        <Route path='/' element={ <Home /> }/>*/}
+        </Routes>
         <Dock />
-      </div>
+      </Router>
     </div>
   )
 }
