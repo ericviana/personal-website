@@ -1,5 +1,5 @@
 import { Dock } from './components/Dock/Dock.jsx';
-import './App.css';
+import './App.scss';
 
 function App() {
   

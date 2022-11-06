@@ -1,4 +1,4 @@
-import styles from './Dock.module.css';
+import styles from './Dock.module.scss';
 import Home from '/src/assets/icons/home.svg';
 import Projects from '/src/assets/icons/projects.svg';
 import Articles from '/src/assets/icons/articles.svg';
