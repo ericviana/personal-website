@@ -1,0 +1,15 @@
+#root {
+  max-width: 280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+::-moz-selection { /* Code for Firefox */
+  color: #ffffff;
+  background: #7E7E7E;
+}
+
+::selection {
+  color: #ffffff;
+  background: #2C2C2E;
+}

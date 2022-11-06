@@ -1,0 +1,32 @@
+:root {
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: 'Space Grotesk', sans-serif;
+  background-color: #242424;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 680px;
+  margin: 28vh auto 0 auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 42px;
+  color: #F2F2F7;
+  margin: 0;
+}
+
+p {
+  font-size: 26px;
+  font-weight: bolder;
+  color: #8E8E93;
+  margin-bottom: .6rem;
+}
