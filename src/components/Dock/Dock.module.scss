@@ -1,20 +1,27 @@
+@import '../../App.scss';
+
 .container {
+  width: 275px;
+  margin: auto;
+}
+
+.dock {
   position: fixed;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 1rem;
+  gap: 1.4rem;
   padding: 8px;
   border-radius: 18px;
-  bottom: 4rem;
+  bottom: 10%;
   z-index: 999;
 
-  background: #242424b9;
+  background: $b;
   border-radius: 16px;
   box-shadow: 0 4px 3px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(7px);
   -webkit-backdrop-filter: blur(20px);
-  outline: 2px solid #2c2c2e;
+  outline: 2px solid $bl;
 
 }
 
@@ -30,9 +37,9 @@ img {
 
 [data-title]:after {
   content: attr(data-title);
-  background-color: #4b4b4b;
-  color: #fff;
-  font-size: 110%;
+  background-color: $bl;
+  color: $w;
+  font-size: 1.8rem;
   position: absolute;
   padding: 1px 5px 2px 5px;
   bottom: -1.6em;
@@ -40,7 +47,6 @@ img {
   white-space: nowrap;
   box-shadow: 1px 1px 3px #222222;
   opacity: 0;
-  border: 1px solid #2c2c2e;
   z-index: 99999;
   visibility: hidden;
   border-radius: 5px;

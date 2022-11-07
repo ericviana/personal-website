@@ -1,25 +1,18 @@
-import { Dock } from '../components/Dock/Dock.jsx';
-import '../App.scss';
-import '../index.scss';
+import "../App.scss";
 
 export function Home() {
   return (
     <div>
       <div className="hero">
-        <h2>I'm Eric</h2>
-        <h1>
+        <h1>I Am Eric</h1>
+        <h2>
           <del>Programmer</del>
-          <br/>
-          <del>Engineer</del>
-          <br/>
-          Maker.
-        </h1>
-      </div>
-      <div className="navigation">
-        <Dock />
+          <br /><del>Engineer</del>
+          <br />Maker.
+        </h2>
       </div>
     </div>
-  )
+  );
 }
 
 export default Home;
