@@ -1,12 +1,10 @@
 import { Link } from "react-router-dom";
 import styles from "./Dock.module.scss";
-import "../../../src/App.scss";
 //
-
-import Home from "/src/assets/icons/home.svg";
-import Projects from "/src/assets/icons/projects.svg";
-import Articles from "/src/assets/icons/articles.svg";
-import About from "/src/assets/icons/about.svg";
+import Home from "@/assets/icons/home.svg";
+import Projects from "@/assets/icons/projects.svg";
+import Articles from "@/assets/icons/articles.svg";
+import About from "@/assets/icons/about.svg";
 
 export function Dock() {
   return (

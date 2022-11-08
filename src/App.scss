@@ -1,10 +1,11 @@
 $b: #1C1C1E;
+$bt: #1c1c1e81;
 $bl: #2C2C2E;
 $w: #F2F2F7;
 $g: #8E8E93;
 
 #root {
-  max-width: 680px;
+  max-width: 740px;
   margin: 0 auto;
 }
 
@@ -26,8 +27,9 @@ body {
   background-color: $b;
   padding: 0;
   box-sizing: border-box;
-  max-width: 680px;
+  max-width: 740px;
   margin: 0 auto;
+  padding: 0 20px 0 20px;
 }
 
 .hero {
@@ -54,13 +56,27 @@ h3 {
   font-size: 2rem;
   font-weight: 700;
   color: $w;
-  margin-top: -1rem;
 }
 
 p {
   font-size: 1.8rem;
   font-weight: 500;
   text-align: left;
+}
+
+a {
+  color: $w;
+  font-size: 1.8rem;
+  font-weight: 500;
+  text-align: left;
+}
+
+span {
+  color: $g;
+  font-size: 1.8rem;
+  font-weight: 500;
+  text-align: left;
+  display: inline;
 }
 
 ::-moz-selection {
@@ -72,3 +88,7 @@ p {
   color: $w;
   background: $bl;
 }
+
+::-webkit-scrollbar { 
+  display: none; 
+  }
