@@ -23,7 +23,7 @@ function Projects() {
         <Thing
           one="DIY / Workout / Hardware"
           two="Crazy Stuff"
-          three=" • Steal, Recycling, Welding."
+          three=" • Steel, Recycling, Welding."
           four="I've built my own gym during the covid pandemic."
         />
       </div>
