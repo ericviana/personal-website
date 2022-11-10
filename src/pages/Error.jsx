@@ -1,13 +1,15 @@
 import "@/App.scss";
+import { Link } from "react-router-dom";
 import Gif from "@/assets/404.gif"
-//import "../styles/Error.scss";
+import "../styles/Error.scss";
 
 function Error() {
   return (
-    <div className="container">
+    <div className="error-container">
       <img src={Gif} alt="" height='200'/>
-      <h2>404 Not Found </h2> 
-      <a href="">Go back to home ↷</a>  
+      <h1>Error 404 😳</h1>
+      <h2>tf you doing here?</h2> 
+      <Link to="" className="error-link">Go back to home ↷</Link>  
     </div>
   );
 }
