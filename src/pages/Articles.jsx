@@ -10,7 +10,7 @@ function Articles() {
         <h1 className="title">Articles</h1>
         <Thing
           one="Brain / Learning"
-          two="How do I get languages Fast"
+          two="Learn Any Language in a Few Months"
           three=" • 30-11-19"
         />
         <Thing
