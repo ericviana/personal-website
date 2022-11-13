@@ -8,7 +8,7 @@ function Error() {
     <div className="error-container">
       <img src={Gif} alt="" height='200'/>
       <h1>Error 404 😳</h1>
-      <h2>tf you doing here?</h2> 
+      <h2>Ain't Nothing Here</h2> 
       <Link to="" className="error-link">Go back to home ↷</Link>  
     </div>
   );

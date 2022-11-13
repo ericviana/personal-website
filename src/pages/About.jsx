@@ -33,11 +33,11 @@ function About() {
         three="• Canada (remote)" four="Aug 2022 – Present • 4 mos"
         />
         <Thing
-        one="Software Engineer" two="loading"
+        one="Software Engineer" two="Company"
         three="• ${location}" four="On the way..."
         />
         <Thing
-        one="Engineering Manager" two="loading"
+        one="Engineering Manager" two="Company"
         three="• ${location}" four="On the way..."
         />
       </div>
