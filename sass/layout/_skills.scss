@@ -1,0 +1,13 @@
+.skills {
+  margin: 18.5rem 16.3rem;
+  .skills-container {
+    margin-top: $margin-extra-small;
+  }
+}
+
+@media (max-width: 75em) {  
+  .skills {
+    width: 90%;
+    margin: 18.5rem 1.6rem;
+  }
+}

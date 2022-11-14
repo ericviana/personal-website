@@ -1,0 +1,63 @@
+.work {
+  margin: 4rem 16.3rem 0rem 16.3rem;
+  //margin: 18.5rem 16.3rem;
+  opacity: a0;
+
+  scroll-margin-top: 7rem;
+
+  display: flex;
+  flex-direction: column;
+
+  .project-container {    
+    display: flex;
+    gap: $margin-medium;
+    margin-top: $margin-small;
+
+    .project-info {
+      width: 80%;
+
+      .project-description {
+        margin-top: $margin-extra-small;
+      }
+
+    }
+
+    .project-image {
+      
+      img {
+        width: 58rem;
+      }
+    }
+  }
+}
+
+
+@media (max-width: 75em) {  
+  .work {
+    margin: 0rem 1.6rem 18.5rem 1.6rem;
+
+    .project-container {
+      flex-direction: column;
+      gap: $margin-extra-small;
+
+      .project-info {
+        width: 80%;
+  
+        .project-description {
+          margin-top: 2px;
+        }
+  
+      }
+
+      .project-image {
+        width: 98%;
+  
+        img {
+          width: 98%;
+        }
+      }
+    }
+  }
+}
+
+

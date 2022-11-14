@@ -1,0 +1,29 @@
+.about {
+  margin: 18.5rem 16.3rem 0rem 16.3rem;
+  scroll-margin-top: 7rem;
+
+
+  .about-container {
+    .text {
+      min-width: 40%;
+      margin-top: $margin-extra-small;
+    }
+  }
+}
+
+
+
+@media (max-width: 75em) {  
+  .about {
+    margin: 18.5rem 1.6rem 0rem 1.6rem;
+
+  }
+
+}
+
+
+@media (max-width: 37.5em) {
+  .about {
+    margin: 0rem 1.6rem 0rem 1.6rem;
+  }
+}

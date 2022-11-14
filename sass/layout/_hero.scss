@@ -1,0 +1,53 @@
+main {
+  width: 100vw;
+  height: 60rem;
+  
+  .text-container {
+    margin: 18.5rem 16.3rem;
+    width: 90%;
+
+    .title {
+      width: 50%;
+    }
+  
+    .description {
+      margin-top: $margin-small;
+      width: 60%;
+      overflow: hidden;
+    }
+
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+      gap: $margin-link-desktop;
+      margin-top: $margin-small;
+      margin-bottom: $margin-small;
+    }
+  }
+}
+
+@media (max-width: 75em) {
+  main {
+    margin-top: -10rem;
+    margin-bottom: 12rem;
+
+    .text-container {
+      margin: 18.5rem 1.6rem;
+      
+      .title {
+        width: 98%;
+      }
+
+      .description {
+        width: 90%;
+      }
+
+      ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: $margin-small;
+        margin-top: $margin-small;
+      }
+    }
+  }
+}

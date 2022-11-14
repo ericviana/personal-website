@@ -1,0 +1,53 @@
+h1 {
+  font-size: $big;
+}
+.title {
+  line-height: 8rem;
+  span {
+    font-family: 'Salsa', cursive;
+  }
+}
+
+h1, h3{
+  font-family: 'Maitree', serif;
+  color: $text-dark;
+  font-weight: 300;
+}
+
+h2 {
+  font-family: 'Salsa', cursive;
+  font-size: $small;
+  color: $text-light;
+}
+
+h3 {
+  font-size: $medium;
+}
+
+p, a {
+  font-family: 'Nunito', sans-serif;
+  font-size: $small;
+  color: $text-light;
+  text-decoration: none;
+}
+
+a {
+  padding: 1rem 0;
+}
+a:hover {
+  color: $text-dark;
+}
+
+.skills-container {
+  span {
+  font-family: 'Maitree', serif;
+  font-size: $medium;
+  font-weight: 300;
+  color: $text-dark;
+}
+}
+
+ul, li {
+  list-style: none;
+  gap: $margin-link-desktop;
+}
