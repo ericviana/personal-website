@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: inter, serif;
+  background-color: #08070b;
+  ::selection {
+    background-color: #39cafff8;
+    color: #ffffff;
+  }
+}
+
+::-webkit-scrollbar {
+  width: .8rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #424242;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #626262;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #797979;
+}
+
+
+
+
+
+nav {
+  border-bottom: solid 2.8px #0f0f0f;
+  .nav-wrapper {
+    margin: 0 8rem;
+    height: 4.8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    h2 {
+      font-size: 1.4rem;
+      color: #ffffff;
+      span {
+        color: #8f9ba8;
+      }
+    }
+
+    ul {
+      display: flex;
+      gap: 4rem;
+
+      list-style: none;
+
+      li {
+        a {
+          padding: .8rem;
+    
+          color: #8f9ba8;
+          text-decoration: none;
+          font-size: 1.4rem;
+          display: block;
+          text-align: center;
+    
+      
+          &:hover {
+            background-color: #8f9ba81c;
+            padding: .8rem;
+            border-radius: .8rem;
+            color: #ffffff;
+            transition: all 0.2s ease-in;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero {
+  margin: 12.5rem auto 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+
+  h1 {
+    color: #8f9ba8;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  h2 {
+    color: #ffffff;
+    font-size: 4.8rem;
+    text-align: center;
+    line-height: 130%;
+  }
+
+  .link {
+    margin: 1.4rem 0 1.8rem 0;
+
+    a {
+      padding: 1.2rem;
+
+      color: #8f9ba8;
+      text-decoration: none;
+      font-size: 1.4rem;
+      display: block;
+      text-align: center;
+
+  
+      &:hover {
+        background-color: #8f9ba81c;
+        padding: 1.2rem;
+        border-radius: .8rem;
+        color: #ffffff;
+        transition: all 0.2s ease-in;
+      }
+    }
+  }
+
+  
+  img {
+    width: 14rem;
+  }
+
+}
+
+@media (max-width: 40rem) {
+  nav {
+    .nav-wrapper {
+      margin: 0 2rem;
+      height: 5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+}
+
+@media (max-width: 35rem) {
+  nav {
+    .nav-wrapper {
+      margin: 0 1rem;
+      height: 5rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      h2 {
+        display: none;
+      }
+
+      ul {
+        gap: 2rem;
+      }
+    }
+  }
+}
+
+
