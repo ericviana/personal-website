@@ -1,0 +1,17 @@
+@import '../App.scss';
+
+
+.position {
+  margin-top: 1rem;
+}
+
+span {
+  color: $g;
+  text-decoration: none;
+}
+
+.content { 
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
