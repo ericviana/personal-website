@@ -14,13 +14,8 @@ function Articles() {
           three=" • 30-11-19"
         />
         <Thing
-          one="Languages / Communication"
-          two="How to see a new color"
-          three=" • 25-11-22"
-        />
-        <Thing
-          one="Technology / Hypothesis"
-          two="Behind the scenes"
+          one="Technology / Tooling"
+          two="Easiest way to learn Vim"
           three=" • 14-07-22"
         />
       </div>
