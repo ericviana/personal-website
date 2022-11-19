@@ -1,8 +1,8 @@
-$b: #1C1C1E;
+$b: #1c1c1e;
 $bt: #1c1c1e81;
-$bl: #2C2C2E;
-$w: #F2F2F7;
-$g: #8E8E93;
+$bl: #2c2c2e;
+$w: #f2f2f7;
+$g: #8e8e93;
 
 #root {
   max-width: 740px;
@@ -23,7 +23,7 @@ html {
 }
 
 body {
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   background-color: $b;
   padding: 0;
   box-sizing: border-box;
@@ -35,7 +35,8 @@ body {
 .hero {
   margin-top: 28%;
 
-  h1, h2 {
+  h1,
+  h2 {
     text-align: center;
     font-weight: 700;
   }
@@ -89,6 +90,6 @@ span {
   background: $bl;
 }
 
-::-webkit-scrollbar { 
-  display: none; 
+::-webkit-scrollbar {
+  display: none;
 }
