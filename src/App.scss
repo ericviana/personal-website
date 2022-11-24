@@ -90,3 +90,22 @@ span {
   background: $bl;
 }
 
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: $bt;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: $bl;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #353535;
+}
