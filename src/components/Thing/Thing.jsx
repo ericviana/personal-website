@@ -18,14 +18,3 @@ function Thing(props) {
 }
 
 export default Thing;
-
-{
-  /* <h3 className="position">Software Engineer</h3>
-<p className="description">
-  Napice {" "}
-  <span>
-    • Canada (remote) <br />
-    Aug 2022 – Present • 4 mos{" "}
-  </span>
-</p> */
-}
