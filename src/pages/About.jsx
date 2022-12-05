@@ -23,7 +23,7 @@ function About() {
           one="Software Engineer"
           two="Napice"
           three="• Canada (remote)"
-          four="Aug 2022 – Present • 4 mos"
+          four="Aug 2022 – Present • 5 mos"
         />
         <Thing
           one="Software Engineer"
