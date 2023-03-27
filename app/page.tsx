@@ -36,8 +36,8 @@ export default function Home() {
       <header className="m-6">
         <Image src={logo} alt="" />
       </header>
-      <div className="mx-auto my-32 h-full w-full max-w-3xl rounded-xl px-4">
-        <h1 className="mb-6 py-3 text-xl font-bold lowercase antialiased">
+      <div className="mx-auto my-36 h-full w-full max-w-3xl rounded-xl px-4">
+        <h1 className="mb-8 py-3 text-xl font-bold lowercase antialiased">
           My name is{' '}
           <a href="" className="text-zinc-400 hover:underline">
             Eric
