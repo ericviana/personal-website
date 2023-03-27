@@ -56,7 +56,7 @@ export default function Home() {
           things and learn through constant experimentation.
         </h1>
         <a
-          className="mt-14 rounded-xl bg-zinc-800 px-3 py-2 text-base font-bold antialiased border-4 border-zinc-700 border-b-8"
+          className="mt-14 rounded-xl bg-zinc-800 px-3 py-2 text-base font-bold antialiased border-2 border-zinc-700 border-b-[6px] hover:border-b-2 shadow-md transition-all"
           href=""
         >
           Press ⌘ + K to navigate
