@@ -34,7 +34,7 @@ export default function Home() {
   return (
     <>
       <header className="m-6">
-        <Image src={logo} alt="" />
+        <Image src={logo} alt="" className='hover:animate-spin'/>
       </header>
       <div className="mx-auto my-36 h-full w-full max-w-3xl rounded-xl px-4">
         <h1 className="mb-8 py-3 text-xl font-bold lowercase antialiased">
@@ -49,7 +49,7 @@ export default function Home() {
           >
             career
           </a>{' '}
-          is being revolved around software engineering world-class
+          is resolving around software engineering world-class
           <a href="" className="text-zinc-400 transition-all duration-300 hover:text-zinc-300">
             {' '}
             projects
