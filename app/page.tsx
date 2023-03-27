@@ -36,11 +36,23 @@ export default function Home() {
       <header className="m-6">
         <Image src={logo} alt="" />
       </header>
-      <div className="mx-auto my-32 h-full w-full max-w-5xl rounded-xl px-4">
-        <h1 className="py-3 text-5xl font-bold antialiased">
-          I'm Eric, I'm based in brazil. My <span className="text-gray-600">career </span>
-          is revolving around software engineering / leading world-class{' '}
-          <span className="text-gray-600">projects</span>.
+      <div className="mx-auto my-32 h-full w-full max-w-3xl rounded-xl px-4">
+        <h1 className="py-3 text-xl font-bold lowercase antialiased">
+          My name is{' '}
+          <a href="" className="text-gray-400 hover:underline">
+            Eric
+          </a>
+          , I'm currently living in brazil. My{' '}
+          <a href="" className="text-gray-400 hover:underline">
+            career
+          </a>{' '}
+          is being revolved around software engineering world-class
+          <a href="" className="text-gray-400 hover:underline">{' '}
+            projects
+          </a>{' '}
+          and pursuing the cutting edge of everything I do. I speak four languages and
+          much of my ethos comes from my eagerness to practice novel ways of 'hacking'
+          things and learn through constant experimentation.
         </h1>
       </div>
     </>
