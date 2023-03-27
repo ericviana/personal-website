@@ -39,15 +39,18 @@ export default function Home() {
       <div className="mx-auto my-36 h-full w-full max-w-3xl rounded-xl px-4">
         <h1 className="mb-8 py-3 text-xl font-bold lowercase antialiased">
           My name is{' '}
-          <a href="" className="text-zinc-400 hover:underline">
+          <a href="" className="text-zinc-400 transition-all duration-300 hover:text-zinc-300">
             Eric
           </a>
           , I'm currently living in brazil. My{' '}
-          <a href="" className="text-zinc-400 hover:underline">
+          <a
+            href=""
+            className="text-zinc-400 transition-all duration-300 hover:text-zinc-300"
+          >
             career
           </a>{' '}
           is being revolved around software engineering world-class
-          <a href="" className="text-zinc-400 hover:underline">
+          <a href="" className="text-zinc-400 transition-all duration-300 hover:text-zinc-300">
             {' '}
             projects
           </a>{' '}
@@ -56,7 +59,7 @@ export default function Home() {
           things and learn through constant experimentation.
         </h1>
         <a
-          className="mt-14 rounded-xl bg-zinc-800 px-3 py-2 text-base font-bold antialiased border-2 border-zinc-700 border-b-[6px] hover:border-b-2 shadow-md transition-all"
+          className="mt-14 rounded-xl border-[2.8px] border-b-[6px] border-zinc-700 bg-zinc-800 px-3 py-2 text-base font-bold antialiased transition-all hover:border-b-[2.8px]"
           href=""
         >
           Press ⌘ + K to navigate
