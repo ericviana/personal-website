@@ -37,23 +37,30 @@ export default function Home() {
         <Image src={logo} alt="" />
       </header>
       <div className="mx-auto my-32 h-full w-full max-w-3xl rounded-xl px-4">
-        <h1 className="py-3 text-xl font-bold lowercase antialiased">
+        <h1 className="mb-6 py-3 text-xl font-bold lowercase antialiased">
           My name is{' '}
-          <a href="" className="text-gray-400 hover:underline">
+          <a href="" className="text-zinc-400 hover:underline">
             Eric
           </a>
           , I'm currently living in brazil. My{' '}
-          <a href="" className="text-gray-400 hover:underline">
+          <a href="" className="text-zinc-400 hover:underline">
             career
           </a>{' '}
           is being revolved around software engineering world-class
-          <a href="" className="text-gray-400 hover:underline">{' '}
+          <a href="" className="text-zinc-400 hover:underline">
+            {' '}
             projects
           </a>{' '}
           and pursuing the cutting edge of everything I do. I speak four languages and
           much of my ethos comes from my eagerness to practice novel ways of 'hacking'
           things and learn through constant experimentation.
         </h1>
+        <a
+          className="mt-14 rounded-xl bg-zinc-800 px-3 py-2 text-base font-bold antialiased border-4 border-zinc-700 border-b-8"
+          href=""
+        >
+          Press ⌘ + K to navigate
+        </a>
       </div>
     </>
   );
