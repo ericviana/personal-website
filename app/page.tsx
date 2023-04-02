@@ -1,8 +1,6 @@
 import Image from 'next/image';
-import { Inter } from 'next/font/google';
+import Link from 'next/link';
 import logo from '../public/logo.svg';
-
-const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
   title: 'Eric — Home',
@@ -25,17 +23,17 @@ export default function Home() {
             Eric
           </a>
           , I'm currently living in brazil. My{' '}
-          <a
-            href=""
+          <Link
+            href={`/career`}
             className="text-zinc-400 transition-all duration-300 hover:text-zinc-300"
           >
             career
-          </a>{' '}
+          </Link>{' '}
           is resolving around software engineering world-class
-          <a href="" className="text-zinc-400 transition-all duration-300 hover:text-zinc-300">
+          <Link href={`/projects`} className="text-zinc-400 transition-all duration-300 hover:text-zinc-300">
             {' '}
             projects
-          </a>{' '}
+          </Link>{' '}
           and pursuing the cutting edge of everything I do. I speak four languages and
           much of my ethos comes from my eagerness to practice novel ways of 'hacking'
           things and learn through constant experimentation.
