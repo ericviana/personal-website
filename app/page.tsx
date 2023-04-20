@@ -12,25 +12,31 @@ export const metadata = {
 
 export default function Home() {
   return (
-    <div className='bg-blue-700 min-h-screen'>
+    <div className="min-h-screen bg-zinc-900 text-zinc-50">
       <header className="p-4">
-        <Image src={logo} alt="" className='hover:animate-spin'/>
+        <Image src={logo} alt="" className="hover:animate-spin" />
       </header>
       <div className="mx-auto my-36 h-full w-full max-w-3xl rounded-xl px-4">
-        <h1 className="mb-8 py-3 text-xl font-bold lowercase antialiased">
+        <h1 className="mb-8 py-3 text-xl font-bold antialiased">
           My name is{' '}
-          <a href="" className="text-blue-400 transition-all duration-300 hover:text-blue-300">
+          <a
+            href=""
+            className="underline underline-offset-4 transition-all duration-300 hover:underline-offset-2"
+          >
             Eric
           </a>
           , I'm currently living in brazil. My{' '}
           <Link
             href={`/career`}
-            className="text-blue-400 transition-all duration-300 hover:text-blue-300"
+            className="underline underline-offset-4 transition-all duration-300 hover:underline-offset-2"
           >
             career
           </Link>{' '}
           is resolving around software engineering world-class
-          <Link href={`/projects`} className="text-blue-400 transition-all duration-300 hover:text-blue-300">
+          <Link
+            href={`/projects`}
+            className="underline underline-offset-4 transition-all duration-300 hover:underline-offset-2"
+          >
             {' '}
             projects
           </Link>{' '}
@@ -38,12 +44,12 @@ export default function Home() {
           much of my ethos comes from my eagerness to practice novel ways of 'hacking'
           things and learn through constant experimentation.
         </h1>
-        <a
+        {/* <a
           className="mt-14 rounded-xl border-[2.8px] border-b-[6px] border-blue-500 bg-blue-600 px-3 py-2 text-base font-black antialiased transition-all hover:border-b-[2.8px] text-white"
           href=""
         >
           Press ⌘ + K to navigate
-        </a>
+        </a> */}
       </div>
     </div>
   );

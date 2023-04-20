@@ -13,13 +13,3 @@
     color-scheme: dark;
   }
 }
-
-::-moz-selection { /* Code for Firefox */
-  color: rgb(255, 67, 108);
-  background: rgb(37, 99, 235);
-}
-
-::selection {
-  color: rgb(255, 67, 108);
-  background: rgb(37, 99, 235);
-}
