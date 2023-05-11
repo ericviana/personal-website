@@ -12,12 +12,12 @@ export const metadata = {
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-zinc-900 text-zinc-50">
+    <div className="min-h-screen bg-white text-zinc-900">
       <header className="p-4">
         <Image src={logo} alt="" className="hover:animate-spin" />
       </header>
       <div className="mx-auto my-36 h-full w-full max-w-3xl rounded-xl px-4">
-        <h1 className="mb-8 py-3 text-xl font-bold antialiased">
+        <h1 className="mb-8 py-3 text-lg font- antialiased">
           My name is{' '}
           <a
             href=""
