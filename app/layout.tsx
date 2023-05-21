@@ -1,7 +1,7 @@
 import './globals.css';
-import {Fira_Code} from 'next/font/google'
+import {Martel} from 'next/font/google'
 
-const inter = Fira_Code({
+const inter = Martel({
   weight: '400',
   subsets: ['latin'],
 })
