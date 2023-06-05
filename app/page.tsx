@@ -1,6 +1,3 @@
-import Image from 'next/image';
-import logo from '../public/Mask group.png';
-
 export const metadata = {
   title: 'Eric Viana',
   description:
@@ -70,7 +67,7 @@ export default function Home() {
         <div className="mt-6 mb-6 border-y border-gray-100 bg-gray-50 bg-opacity-50">
           <h1 className="py-2 px-4 text-sm">Contact Me</h1>
         </div>
-        <div className="grid grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 flex-wrap gap-8 sm:grid-cols-2">
           <div className="px-4 text-sm">
             <p>Email</p>
             <a
