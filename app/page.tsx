@@ -2,7 +2,7 @@ import Image from 'next/image';
 import logo from '../public/Mask group.png';
 
 export const metadata = {
-  title: 'Eric B. Viana',
+  title: 'Eric Viana',
   description:
     "This is Eric Personal's place on the internet. Here you'll find project, articles and much more.",
   icons: {
