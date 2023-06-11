@@ -99,6 +99,16 @@ export default function Home() {
             </a>
           </div>
           <div className="px-4 text-sm">
+            <p>Twitter</p>
+            <a
+              className="text-sm text-gray-400 hover:underline"
+              href="https://twitter.com/ericvna"
+              target="_blank"
+            >
+              linkedin.com/in/ericviana
+            </a>
+          </div>
+          <div className="px-4 text-sm">
             <p>Linkedin</p>
             <a
               className="text-sm text-gray-400 hover:underline"
