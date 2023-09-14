@@ -1,7 +1,7 @@
 import './globals.css';
-import { Martel } from 'next/font/google';
+import { Inter } from 'next/font/google';
 
-const inter = Martel({
+const inter = Inter({
   weight: '400',
   subsets: ['latin'],
 });
