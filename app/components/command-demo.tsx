@@ -1,14 +1,13 @@
 "use client"
 
 import * as React from "react"
-import Link from "next/link"
 import {
-  Calculator,
+  Twitter,
   Calendar,
-  CreditCard,
-  Settings,
-  Smile,
-  User,
+  Mail,
+  Sparkles,
+  TerminalSquare,
+  Workflow
 } from "lucide-react"
 
 
@@ -40,46 +39,46 @@ export function CommandDialogDemo() {
 
   return (
     <>
-      <p className="text-sm text-muted-foreground">
+      <p className="text-sm text-primary">
         Press{" "}
-        <kbd className="pointer-events-none inline-flex h-5 select-none items-center gap-1 rounded border bg-muted px-1.5 font-mono text-[10px] font-medium text-muted-foreground opacity-100">
+        <kbd className="pointer-events-none inline-flex h-5 select-none items-center gap-1 rounded border bg-primary/5 px-1.5 font-mono text-[10px] font-medium text-primary opacity-100">
           <span className="text-xs">⌘</span>K
         </kbd>
       </p>
       <CommandDialog open={open} onOpenChange={setOpen}>
-        <CommandInput placeholder="Type a command or search..." />
+        <CommandInput placeholder="Search and press enter ↵" />
         <CommandList>
           <CommandEmpty>No results found.</CommandEmpty>
-          <CommandGroup heading="Suggestions">
-            <CommandItem>
+          <CommandGroup heading="Contact">
+            <CommandItem onSelect={() => {window.open('https://cal.com/ericviana')}}>
               <Calendar className="mr-2 h-4 w-4" />
-              <Link href="https://www.cal.com/ericviana" target="_blank">Calendar</Link>
+              Calendar
             </CommandItem>
-            <CommandItem>
-              <Smile className="mr-2 h-4 w-4" />
-              <span>Search Emoji</span>
+            <CommandItem onSelect={() => {window.open('mailto:eric@crafta.studio')}}>
+              <Mail className="mr-2 h-4 w-4" />
+              <span>Email</span>
             </CommandItem>
-            <CommandItem>
-              <Calculator className="mr-2 h-4 w-4" />
-              <span>Calculator</span>
+            <CommandItem onSelect={() => {window.open('https://x.com/ericvna')}}>
+              <Twitter className="mr-2 h-4 w-4" />
+              <span>Twitter</span>
             </CommandItem>
           </CommandGroup>
           <CommandSeparator />
-          <CommandGroup heading="Settings">
-            <CommandItem>
-              <User className="mr-2 h-4 w-4" />
-              <span>Profile</span>
-              <CommandShortcut>⌘P</CommandShortcut>
+          <CommandGroup heading="Projects">
+            <CommandItem onSelect={() => {window.open('https://crafta.studio')}}>
+              <Sparkles className="mr-2 h-4 w-4" />
+              <span>Crafta</span>
+              <CommandShortcut>Software Agency</CommandShortcut>
             </CommandItem>
-            <CommandItem>
-              <CreditCard className="mr-2 h-4 w-4" />
-              <span>Billing</span>
-              <CommandShortcut>⌘B</CommandShortcut>
+            <CommandItem onSelect={() => {window.open('https://fros.dev')}}>
+              <TerminalSquare className="mr-2 h-4 w-4" />
+              <span>Fros</span>
+              <CommandShortcut>Open Source</CommandShortcut>
             </CommandItem>
-            <CommandItem>
-              <Settings className="mr-2 h-4 w-4" />
-              <span>Settings</span>
-              <CommandShortcut>⌘S</CommandShortcut>
+            <CommandItem onSelect={() => {window.open('https://raunt.app')}}>
+              <Workflow className="mr-2 h-4 w-4" />
+              <span>Raunt</span>
+              <CommandShortcut>Job Hunting SaaS</CommandShortcut>
             </CommandItem>
           </CommandGroup>
         </CommandList>
