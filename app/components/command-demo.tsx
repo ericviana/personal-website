@@ -39,12 +39,15 @@ export function CommandDialogDemo() {
 
   return (
     <>
-      <p className="text-sm text-primary">
+      <button className="text-sm text-primary w-fit" aria-modal onClick={(e) => {
+      e.preventDefault()
+      setOpen((open) => !open)
+      }}>
         Press{" "}
-        <kbd className="pointer-events-none inline-flex h-5 select-none items-center gap-1 rounded border bg-primary/5 px-1.5 font-mono text-[10px] font-medium text-primary opacity-100">
+        <kbd className="pointer-events-none inline-flex h-5 select-none items-center gap-1 rounded border border-primary/10 bg-gradient-to-b from-primary-foreground to-primary/20 px-1.5 font-mono text-[10px] font-medium text-primary opacity-100" >
           <span className="text-xs">⌘</span>K
         </kbd>
-      </p>
+      </button>
       <CommandDialog open={open} onOpenChange={setOpen}>
         <CommandInput placeholder="Search and press enter ↵" />
         <CommandList>
