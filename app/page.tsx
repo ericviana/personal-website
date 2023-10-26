@@ -13,7 +13,7 @@ export const metadata = {
 
 export default function Home() {
   return (
-    <div className="antialiased h-[100dvh] p-4 bg-background">
+    <div className="antialiased h-[100dvh] p-4 bg-background squares">
       <div className="flex justify-between">
         <br />
         <ModeToggle />

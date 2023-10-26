@@ -48,4 +48,12 @@
     --input: 240 3.7% 15.9%;
     --ring: 240 4.9% 83.9%;
   }
+  
+  .squares {
+    background-image:
+    linear-gradient(to right, --muted 1px, transparent 1px),
+    linear-gradient(to bottom, --muted 1px, transparent 1px);
+    background-size: 12px 12px;
+    z-index: -100;
+  }
 }
