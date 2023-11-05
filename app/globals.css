@@ -57,3 +57,25 @@
     z-index: -100;
   }
 }
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: 'cv01', 'cv02', 'cv03', 'cv04', 'cv05', 'cv06', 'cv09', 'cv10';
+  scroll-behavior: smooth;
+  position: relative;
+
+  @media (max-width: 768px) {
+    scroll-padding-top: 96px;
+  }
+}
+
+@supports (-webkit-overflow-scrolling: touch) {
+  body {
+    height: -webkit-fill-available;
+  }
+  html {
+    height: -webkit-fill-available;
+  }
+}
