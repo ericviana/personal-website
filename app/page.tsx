@@ -19,7 +19,7 @@ export default function Home() {
         <ModeToggle />
       </div>
       <div className="max-w-xl mx-auto mt-[30vh] flex flex-col gap-6 tracking-wide font-semibold">
-        <h1 className="text-primary/90 text-xl">I am Eric, an experienced software engineer <DraftingCompass className="inline"/> dedicated to crafting meaningful <Shell className="inline" /> experiences. In the realm where technology and aesthetics  converge, I wield code <KeyboardIcon className="inline"/> and design <Palette className="inline"/> as my tools to breathe life into the intangible.</h1>
+        <h1 className="text-primary/90 text-xl">I am Eric, an experienced design engineer <DraftingCompass className="inline"/> dedicated to crafting meaningful <Shell className="inline" /> experiences. In the realm where technology and aesthetics  converge, I wield code <KeyboardIcon className="inline"/> and design <Palette className="inline"/> as my tools to breathe life into the intangible.</h1>
         <CommandDialogDemo />
       </div>
     </div>
