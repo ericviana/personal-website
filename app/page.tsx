@@ -5,7 +5,7 @@ import { DraftingCompass, Palette, Code2, KeyboardIcon, Heart, Shell } from "luc
 export const metadata = {
   title: 'Eric Viana',
   description:
-    "This is Eric's Personal's place on the internet. Here you'll find project, articles, social links and much more.",
+    "This is Eric's corner on the internet. Here you'll find project, articles, social links and much more.",
   icons: {
     icon: './ico.png',
   },
