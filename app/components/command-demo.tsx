@@ -8,7 +8,8 @@ import {
   Mail,
   Sparkles,
   TerminalSquare,
-  Workflow
+  Workflow,
+  Linkedin
 } from "lucide-react"
 
 
@@ -54,14 +55,6 @@ export function CommandDialogDemo() {
         <CommandList>
           <CommandEmpty>No results found.</CommandEmpty>
           <CommandGroup heading="Contact">
-            <CommandItem onSelect={() => {window.open('https://cal.com/ericviana')}}>
-              <Calendar className="mr-2 h-4 w-4" />
-              Calendar
-            </CommandItem>
-            <CommandItem onSelect={() => {window.open('mailto:eric@crafta.studio')}}>
-              <Mail className="mr-2 h-4 w-4" />
-              <span>Email</span>
-            </CommandItem>
             <CommandItem onSelect={() => {window.open('https://x.com/ericvna')}}>
               <Twitter className="mr-2 h-4 w-4" />
               <span>Twitter</span>
@@ -69,6 +62,18 @@ export function CommandDialogDemo() {
             <CommandItem onSelect={() => {window.open('https://bsky.app/profile/ericvna.bsky.social')}}>
               <Wand className="mr-2 h-4 w-4" />
               <span>Bluesky</span>
+            </CommandItem>
+            <CommandItem onSelect={() => {window.open('https://bsky.app/profile/ericvna.bsky.social')}}>
+              <Linkedin className="mr-2 h-4 w-4" />
+              <span>Linkedin</span>
+            </CommandItem>
+            <CommandItem onSelect={() => {window.open('mailto:eric@crafta.studio')}}>
+              <Mail className="mr-2 h-4 w-4" />
+              <span>Email</span>
+            </CommandItem>
+            <CommandItem onSelect={() => {window.open('https://cal.com/ericviana')}}>
+              <Calendar className="mr-2 h-4 w-4" />
+              Calendar
             </CommandItem>
           </CommandGroup>
           <CommandSeparator />
@@ -83,7 +88,7 @@ export function CommandDialogDemo() {
               <span>Fros</span>
               <CommandShortcut>Open Source</CommandShortcut>
             </CommandItem>
-            <CommandItem onSelect={() => {window.open('https://raunt.app')}}>
+            <CommandItem className="mb-1" onSelect={() => {window.open('https://raunt.app')}}>
               <Workflow className="mr-2 h-4 w-4" />
               <span>Raunt</span>
               <CommandShortcut>Job Hunting SaaS</CommandShortcut>
