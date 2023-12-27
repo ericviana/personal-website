@@ -3,6 +3,7 @@
 import * as React from "react"
 import {
   Twitter,
+  Wand,
   Calendar,
   Mail,
   Sparkles,
@@ -64,6 +65,10 @@ export function CommandDialogDemo() {
             <CommandItem onSelect={() => {window.open('https://x.com/ericvna')}}>
               <Twitter className="mr-2 h-4 w-4" />
               <span>Twitter</span>
+            </CommandItem>
+            <CommandItem onSelect={() => {window.open('https://bsky.app/profile/ericvna.bsky.social')}}>
+              <Wand className="mr-2 h-4 w-4" />
+              <span>Bluesky</span>
             </CommandItem>
           </CommandGroup>
           <CommandSeparator />
