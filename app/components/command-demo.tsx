@@ -9,7 +9,8 @@ import {
   Sparkles,
   TerminalSquare,
   Workflow,
-  Linkedin
+  Linkedin,
+  Github
 } from "lucide-react"
 
 
@@ -58,6 +59,10 @@ export function CommandDialogDemo() {
             <CommandItem onSelect={() => {window.open('https://x.com/ericvna')}}>
               <Twitter className="mr-2 h-4 w-4" />
               <span>Twitter</span>
+            </CommandItem>
+            <CommandItem onSelect={() => {window.open('https://github.com/ericviana')}}>
+              <Github className="mr-2 h-4 w-4" />
+              <span>Github</span>
             </CommandItem>
             <CommandItem onSelect={() => {window.open('https://bsky.app/profile/ericvna.bsky.social')}}>
               <Wand className="mr-2 h-4 w-4" />
