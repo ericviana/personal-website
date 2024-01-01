@@ -55,7 +55,7 @@ export function CommandDialogDemo() {
         <CommandInput placeholder="Search and press enter ↵" />
         <CommandList>
           <CommandEmpty>No results found.</CommandEmpty>
-          <CommandGroup heading="Contact">
+          <CommandGroup heading="Social">
             <CommandItem onSelect={() => {window.open('https://x.com/ericvna')}}>
               <Twitter className="mr-2 h-4 w-4" />
               <span>Twitter</span>
@@ -68,10 +68,13 @@ export function CommandDialogDemo() {
               <Wand className="mr-2 h-4 w-4" />
               <span>Bluesky</span>
             </CommandItem>
-            <CommandItem onSelect={() => {window.open('https://bsky.app/profile/ericvna.bsky.social')}}>
+            <CommandItem onSelect={() => {window.open('https://linkedin.com/in/eric-viana')}}>
               <Linkedin className="mr-2 h-4 w-4" />
               <span>Linkedin</span>
             </CommandItem>
+          </CommandGroup>
+          <CommandSeparator />
+          <CommandGroup heading="Contact">
             <CommandItem onSelect={() => {window.open('mailto:eric@crafta.studio')}}>
               <Mail className="mr-2 h-4 w-4" />
               <span>Email</span>
