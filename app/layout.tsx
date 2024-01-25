@@ -1,6 +1,7 @@
 import './globals.css';
 import { Inter } from 'next/font/google';
 import { ThemeProvider } from './components/theme-provider';
+import { Analytics } from '@vercel/analytics/react'
 
 const inter = Inter({
   weight: '400',
@@ -16,7 +17,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         enableSystem
         disableTransitionOnChange
       >
-        <body className={inter.className}>{children}</body>
+        <body className={inter.className}>
+          {children}
+          <Analytics />
+        </body>
       </ThemeProvider>
     </html>
   );
