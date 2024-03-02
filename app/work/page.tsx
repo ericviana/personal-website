@@ -1,5 +1,14 @@
 import Image from 'next/image';
 
+export const metadata = {
+  title: 'Latest work',
+  description:
+    "This is Eric's corner on the internet. Here you'll find project, articles, social links and much more.",
+  icons: {
+    icon: './ico.png',
+  },
+};
+
 const work = [
   {
     id: 1,
@@ -45,6 +54,11 @@ const work = [
     id: 9,
     name: 'Work 9',
     src: '/assets/9.png',
+  },
+  {
+    id: 10,
+    name: 'Website',
+    src: '/assets/10.png',
   },
 ];
 
