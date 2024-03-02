@@ -52,7 +52,7 @@ export default function Page() {
   return (
     <div className="bg-gradient-to-br from-[#1E1E1E] to-[#151515] pb-10">
       {work.map((item) => (
-        <div key={item.id} className="max-w-xl mx-auto px-6 mt-6">
+        <div key={item.id} className="mx-auto max-w-xl px-6 pt-6">
           <Image src={item.src} alt={item.name} width={600} height={600} />
         </div>
       ))}
